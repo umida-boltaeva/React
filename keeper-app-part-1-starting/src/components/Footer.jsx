@@ -5,8 +5,7 @@ import  React  from "react";
      const date = new Date();
      const currentYear = date.getFullYear();
   
-     return 
-     <footer>
+     return <footer>
         <p>Copyright Ⓒ {currentYear}</p>
      </footer>
      
