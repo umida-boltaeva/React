@@ -10,10 +10,10 @@ function App() {
 
   {
 //Ternary operator
-  /* {isLoggedIn ? <h1>Hello User</h1> : <Login />} */
+  isLoggedIn ? <h1>Hello User</h1> : <Login />
 
   //AND operator
-  {/* currentTime > 12 && <h1>Why are you still working?</h1> */}
+  /* currentTime > 12 && <h1>Why are you still working?</h1> */
   }
     
     </div>
