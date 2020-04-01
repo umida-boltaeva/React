@@ -3,11 +3,18 @@ import Login from "./Login";
 
 const isLoggedIn = true;
 
-function App() {
-  return ( <div className="container">{
+const currentTime = new Date().getHours();
 
-    isLoggedIn ? <h1>Hello User</h1> : <Login />
-    }
+function App() {
+  return ( <div className="container">
+
+  {
+//Ternary operator
+  /* {isLoggedIn ? <h1>Hello User</h1> : <Login />} */
+
+  //AND operator
+  {/* currentTime > 12 && <h1>Why are you still working?</h1> */}
+  }
     
     </div>
   );
