@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ToDoItem from "./ToDoItem";
 
 function App() {
 
@@ -31,9 +32,10 @@ function handleClick(){
       </div>
       <div>
         <ul>
-        {items.map(item => <li>{item}</li>)}          
+        {items.map(todoItem => <ToDoItem text={todoItem}/>)}          
         </ul>
       </div>
+      
     </div>
   );
 }
